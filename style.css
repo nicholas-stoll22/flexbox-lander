@@ -86,3 +86,32 @@
     height: 40px;
     border-radius: 12px;
 }
+
+.flexbox-quote {
+    display: flex;
+    flex-direction: column;
+    padding-left: 28%;
+    padding-right: 28%;
+    background-color: #E5E7EB;
+}
+
+#quote {
+    display: flex;
+    padding-top: 15%;
+    padding-bottom: 0.5%;
+    height: 80%;
+    font-size: 24px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+#attribution {
+    display: flex;
+    height: 20%;
+    font-weight: bolder;
+    font-size: 24px;
+    align-items: right;
+    justify-content: right;
+    padding-bottom: 15%;
+}

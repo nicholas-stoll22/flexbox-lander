@@ -1,3 +1,3 @@
-simple project to learn how to create landing pages using flexbox
+# Flexbox Lander (The Odin Project)
 
-(part of The Odin Project fundamentals course)
+simple project to learn how to create simple landing pages using flexbox
