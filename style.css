@@ -1,7 +1,32 @@
-flexbox-header {
+* { 
+    margin: 0;
+    padding: 0;
+  }
+
+.flexbox-header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.flexbox-header div {
+    height: 100px;
+    flex: 1;
+}
+
+.header-links {
     display: flex;
 }
 
-flexbox-header div {
-    border: 4px solid black;
+#header-logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-left: 10%;
+}
+
+#header-link-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 10px;
 }
