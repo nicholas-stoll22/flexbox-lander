@@ -87,6 +87,45 @@
     border-radius: 12px;
 }
 
+.flexbox-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-info {
+    display: flex;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.illustrations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.ill {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+
+.ill-text {
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
 .flexbox-quote {
     display: flex;
     flex-direction: column;
@@ -102,6 +141,8 @@
     height: 80%;
     font-size: 24px;
     font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
     align-items: center;
     justify-content: center;
 }
